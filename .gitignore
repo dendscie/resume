@@ -78,3 +78,6 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+
+public/stylesheets/bootstrap/bootstrap.css
+public/stylesheets/style.css
