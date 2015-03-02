@@ -2,15 +2,23 @@ extends layout
 
 block content
     #container.container
-        .row
-            .col-md-4
-                img(src="/images/dessin.png").dessin
-            .col-md-8
-                h1 Kevin Vasseure
-                img(src="/images/french.png").flag
-                .infos 
-                    h2 
-                        | Java Developer 
-                        br
-                        | back and front end
+        header
+            .row
+                .col-md-4
+                    img(src="/images/dessin.png")#dessin
+                .col-md-8
+                    h1 Kevin Vasseure
+                    img(src="/images/french.png")#flag
+                    #infos
+                        h2
+                            | Java Developer
+                            br
+                            | back and front end
+        section#content
+            section#skills
+                .section-title
+                    img(src="/images/skills.png")#skills-icon.content-icon
+                    h2 SKILLS
+                .resume-enum
+            
 

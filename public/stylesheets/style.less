@@ -1,4 +1,5 @@
 @import "bootstrap/bootstrap.less";
+//responsive
 @media (min-width:992px)
 {
   .container{width:960px}
@@ -8,47 +9,82 @@
   .container{width:960px}
 }
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
-
+//var
 @magic-yellow : #FFFF00;
 @magic-green : #ABD4C2;
+.yellow-block{
+  border: 2px @magic-yellow solid;
+  padding: 5px;
+}
+.yellow-back{
+  color : @magic-green;
+  background-color: @magic-yellow;
+  display: inline-block;
+}
+
+//bootstrap override
+.container {
+  padding-top: 50px;
+  background-color: #ABD4C2;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: @magic-green;
+  background-image: url("../images/motif-fond.png");
 }
 
 a {
   color: #00B7FF;
 }
 
-.dessin{
-  width :308px;
+h1{
+  .yellow-back();
+  padding: 20px;
+  margin-top: 0;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight:700;
+  
 }
 
-.flag{
+#dessin{
+  width :308px;
+  margin-bottom: 8px;
+}
+
+#flag{
   right: 25px;
   position: absolute;
   top: 12px;
   
 }
 
-h1{
-  padding: 20px;
-  margin-top: 0;
-  background-color: @magic-yellow;
-  color: @magic-green;
-  font-family: 'Source Code Pro', sans-serif;
-  font-weight:700;
-  display: inline-block;
-}
-
-.infos {
-  border: 2px @magic-yellow solid;
-  padding: 5px;
+#infos {
+  .yellow-block();
   & h2 {
     color: @magic-yellow;
     margin: 0;
+  }
+}
+
+#content {
+  & h2 {
+    .yellow-back();
+    font-size: 20px;
+    margin: 9px 0 0 0;
+    padding: 3px;
+  }
+  & .resume-enum {
+    .yellow-block();
+  }
+  & .section-title {
+    & .content-icon {
+      margin: 5px 5px 5px 0;
+      width: 34px;
+      vertical-align: top;
+    }
+    margin-top: 10px;
   }
 }
