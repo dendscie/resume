@@ -14,7 +14,6 @@
 @magic-green : #ABD4C2;
 .yellow-block{
   border: 2px @magic-yellow solid;
-  padding: 5px;
 }
 .yellow-back{
   color : @magic-green;
@@ -28,12 +27,16 @@
   background-color: #ABD4C2;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: @magic-green;
-  background-image: url("../images/motif-fond.png");
+  font-weight: bold;
+  background: @magic-green url("../images/motif-fond.png");
+}
+
+h1, h2, h3 {
+  font-family: 'Source Code Pro', sans-serif;
 }
 
 a {
@@ -41,16 +44,14 @@ a {
 }
 
 h1{
-  .yellow-back();
+  .yellow-back;
   padding: 20px;
   margin-top: 0;
-  font-family: 'Source Code Pro', sans-serif;
   font-weight:700;
-  
 }
 
 #dessin{
-  width :308px;
+  width :200px;
   margin-bottom: 8px;
 }
 
@@ -62,29 +63,51 @@ h1{
 }
 
 #infos {
-  .yellow-block();
-  & h2 {
+  .yellow-block;
+  padding: 14px;
+  h2 {
     color: @magic-yellow;
     margin: 0;
   }
 }
 
 #content {
-  & h2 {
+  h2 {
     .yellow-back();
     font-size: 20px;
     margin: 9px 0 0 0;
     padding: 3px;
   }
-  & .resume-enum {
-    .yellow-block();
+  h3 {
+    color: @magic-yellow;
+    margin: 0 0 2px 0;
+    font-size: 20px;
   }
-  & .section-title {
-    & .content-icon {
-      margin: 5px 5px 5px 0;
-      width: 34px;
-      vertical-align: top;
-    }
-    margin-top: 10px;
+}
+
+.section-title {
+  margin-top: 10px;
+}
+
+.content-icon {
+  margin: 5px 5px 5px 0;
+  width: 34px;
+  vertical-align: top;
+}
+#formations-icon {
+  height: 33px;
+}
+
+.resume-enum {
+  .yellow-block();
+}
+
+.resume-item {
+  margin: 10px 14px;
+  border-bottom: 2px @magic-yellow solid;
+  padding-bottom: 10px;
+  &.last {
+    border: none;
+    padding-bottom: 0;
   }
 }
