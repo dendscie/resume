@@ -1,14 +1,15 @@
 @import "bootstrap/bootstrap.less";
 //responsive
-@media (min-width:992px)
+/*@media (min-width:992px)
 {
   .container{width:960px}
 }
 @media (min-width:1200px)
 {
   .container{width:960px}
-}
-
+}*/
+@container-large-desktop: (840px + @grid-gutter-width);
+@container-desktop : (840px + @grid-gutter-width);
 //var
 @magic-yellow : #FFFF00;
 @magic-green : #ABD4C2;
@@ -77,6 +78,7 @@ h1{
     font-size: 20px;
     margin: 9px 0 0 0;
     padding: 3px;
+    text-transform: capitalize;
   }
   h3 {
     color: @magic-yellow;
@@ -93,9 +95,7 @@ h1{
   margin: 5px 5px 5px 0;
   width: 34px;
   vertical-align: top;
-}
-#formations-icon {
-  height: 33px;
+  height: 34px;
 }
 
 .resume-enum {

@@ -1,0 +1,51 @@
+{
+  "title": "Java Developer \n back and front end",
+  "subtitle": "",
+  "content": [
+    {
+      "title": "skills",
+      "image" : "/images/skills.png",
+      "items": [
+        {
+          "title": "technologies",
+          "content": "Java, Spring, Vaadin"
+        },
+        {
+          "title" : "Divers",
+          "content" : "blablab"
+          
+        }
+      ]
+    },
+    {
+      "title": "formations",
+      "image" : "/images/formation.png",
+      "items": [
+        {
+          "title": "technologies",
+          "content": "Java, Spring, Vaadin"
+        },
+        {
+          "title" : "Divers",
+          "content" : "blablabi"
+
+        }
+      ]
+    },
+    {
+      "title": "languages",
+      "image" : "/images/languages.png",
+      "items": [
+        {
+          "title": "technologies",
+          "content": "Java, Spring, Vaadin"
+        },
+        {
+          "title" : "Divers",
+          "content" : "blablao"
+
+        }
+      ]
+    }
+  ]
+}

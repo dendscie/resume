@@ -1,8 +1,8 @@
 extends layout
 
-block content
+block content 
     #container.container
-        header
+        header 
             .row
                 .col-md-4
                     img(src="/images/dessin.png")#dessin
@@ -11,31 +11,65 @@ block content
                     //img(src="/images/french.png")#flag
                     #infos
                         h2
-                            | Java Developer
-                            br
-                            | back and front end
+                            |#{resume.title}
         section#content
-            section#skills
-                .section-title
-                    img(src="/images/skills.png")#skills-icon.content-icon
-                    h2 SKILLS
-                .resume-enum
-                    .resume-item
-                        h3 Technologies
-                        |JavaEE, Spring, Vaadin
-                    .resume-item.last
-                        h3 Divers
-                        |blablabla
-            section#formation
-                .section-title
-                    img(src="/images/formation.png")#formations-icon.content-icon
-                    h2 FORMATION
-                .resume-enum
-                    .resume-item
-                        h3 Technologies
-                        | JavaEE, Spring, Vaadin
-                    .resume-item.last
-                        h3 Divers
-                        | blablabla
-
-
+            each val in resume.content
+                section(id = val.title)
+                    .section-title
+                        img(src = val.image).content-icon
+                        h2 #{val.title}
+                    .resume-enum
+                        each item, i in val.items
+                            if i === val.items.length - 1
+                                .resume-item.last
+                                    h3 #{item.title}
+                                    |#{item.content}
+                            else
+                                .resume-item
+                                    h3 #{item.title}
+                                    |#{item.content}
+        //section#content
+        //    section#skills
+        //        .section-title
+        //            img(src="/images/skills.png")#skills-icon.content-icon
+        //            h2 SKILLS
+        //        .resume-enum
+        //            .resume-item
+        //                h3 Technologies
+        //                |JavaEE, Spring, Vaadin
+        //            .resume-item.last
+        //                h3 Divers
+        //                |blablabla
+        //    section#formation
+        //        .section-title
+        //            img(src="/images/formation.png")#formations-icon.content-icon
+        //            h2 FORMATION
+        //        .resume-enum
+        //            .resume-item
+        //                h3 Technologies
+        //                | JavaEE, Spring, Vaadin
+        //            .resume-item.last
+        //                h3 Divers
+        //                | blablabla
+        //    section#languages
+        //        .section-title
+        //            img(src="/images/languages.png")#languages-icon.content-icon
+        //            h2 LANGUAGES
+        //        .resume-enum
+        //            .resume-item
+        //                h3 Technologies
+        //                | JavaEE, Spring, Vaadin
+        //            .resume-item.last
+        //                h3 Divers
+        //                | blablabla
+        //    section#pro-experience
+        //        .section-title
+        //            img(src="/images/pro-experience.png")#pro-experience-icon.content-icon
+        //            h2 PROFESSIONAL EXPERIENCES
+        //        .resume-enum
+        //            .resume-item
+        //                h3 Technologies
+        //                | JavaEE, Spring, Vaadin
+        //            .resume-item.last
+        //                h3 Divers
+        //                | blablabla
