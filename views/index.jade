@@ -13,21 +13,42 @@ block content
                         h2
                             |#{resume.title}
         section#content
-            each val in resume.content
-                section(id = val.title)
+            each vali in resume.skillset
+                section(id = vali.title)
                     .section-title
-                        img(src = val.image).content-icon
-                        h2 #{val.title}
-                    .resume-enum
-                        each item, i in val.items
-                            if i === val.items.length - 1
+                        img(src = vali.image).content-icon
+                        h2 #{vali.title}
+                    .yellow-block
+                        each valj, i in vali.items
+                            if i === vali.items.length - 1
                                 .resume-item.last
-                                    h3 #{item.title}
-                                    |#{item.content}
+                                    h3 #{valj.title}
+                                    |#{valj.content}
                             else
                                 .resume-item
-                                    h3 #{item.title}
-                                    |#{item.content}
+                                    h3 #{valj.title}
+                                    |#{valj.content}
+            section#pro-experiences
+                .section-title
+                    img(src = "/images/pro-experience.png").content-icon
+                    h2 Professional Experiences
+                each vali in resume.experiences
+                    .yellow-block.bm10
+                        .resume-item.last
+                            h3 #{vali.itsc}
+                    each valj in vali.missions
+                        .yellow-block.bm10
+                            .resume-item
+                                h3 #{valj.client}
+                            .resume-item
+                                h3 Projects
+                                |#{valj.projects}
+                            .resume-item
+                                h3 Description
+                                |#{valj.description}
+                            .resume-item.last
+                                h3 Technical Environment
+                                |#{valj.technical}
         //section#content
         //    section#skills
         //        .section-title

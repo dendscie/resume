@@ -1,49 +1,149 @@
 {
   "title": "Java Developer \n back and front end",
   "subtitle": "",
-  "content": [
+  "skillset": [
     {
       "title": "skills",
-      "image" : "/images/skills.png",
+      "image": "/images/skills.png",
       "items": [
         {
           "title": "technologies",
-          "content": "Java, Spring, Vaadin"
+          "content": "JavaEE, Spring, Vaadin, GWT, CQ5/AEM, Guice, OSGi"
         },
         {
-          "title" : "Divers",
-          "content" : "blablab"
-          
+          "title": "Programming language",
+          "content": "Java, JSP, C, SQL, PHP, HTML, SVG, CSS, Python, PERL, CAML, Javascript, XML, JSON, Scala"
+        },
+        {
+          "title": "Front end",
+          "content": "HTML, Javascript – jQuery, Freemarker, CSS, Less, Bootstrap, Grids, CssLint, JsLint, Selenium, AngularJS"
+        },
+        {
+          "title": "Back end",
+          "content": "Spring, Hibernate (JPA), Guice, Guava, Spring MVC, SAX, POI, Jersey (JAX-RS), Maven, Jenkins"
+        },
+        {
+          "title": "RDBSM",
+          "content": "MySQL, Oracle, PostgreSQL, Endeca (Index), Elastic-Search, GAE Datastore"
+        },
+        {
+          "title": "Application server",
+          "content": "Tomcat, Weblogic, Websphere, SunOne, Jboss, Jetty"
+        },
+        {
+          "title": "Tools/Software",
+          "content": "Putty, Typo3, SQLYOG, DB Visualizer, GIMP, Photoshop, Eclipse, SVN, Git, Gitk, Sublime Text 2, Intellij IDEA"
+        },
+        {
+          "title": "Architecture/Conception",
+          "content": "SOA, AOP, I18n, Design Pattern, Continuous Integration"
         }
       ]
     },
     {
       "title": "formations",
-      "image" : "/images/formation.png",
+      "image": "/images/formation.png",
       "items": [
         {
-          "title": "technologies",
-          "content": "Java, Spring, Vaadin"
+          "title": "2015",
+          "content": "Coursera Algorithmis Design and Analysis"
         },
         {
-          "title" : "Divers",
-          "content" : "blablabi"
-
+          "title": "2013",
+          "content": "Coursera Scala Course"
+        },
+        {
+          "title": "2012",
+          "content": "Devoxx France"
+        },
+        {
+          "title": "2011",
+          "content": "Mule ESB"
+        },
+        {
+          "title": "2011",
+          "content": "Spring"
+        },
+        {
+          "title": "2011",
+          "content": "Liferay"
+        },
+        {
+          "title": "2007",
+          "content": "Master in Biotechnologies (option Biology and Computer Science) Université Paris Sud Evry"
         }
       ]
     },
     {
       "title": "languages",
-      "image" : "/images/languages.png",
+      "image": "/images/languages.png",
       "items": [
         {
-          "title": "technologies",
-          "content": "Java, Spring, Vaadin"
+          "title": "English",
+          "content": "fluent"
         },
         {
-          "title" : "Divers",
-          "content" : "blablao"
-
+          "title": "French",
+          "content": "Native"
+        },
+        {
+          "title": "Japanese",
+          "content": "Daily Conversation (JLPT 3)"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "itsc": "Consultant for Ippon Tecnologies",
+      "url": "",
+      "duration": "",
+      "missions": [
+        {
+          "client": "Digitas LBI",
+          "url": "http://www.digitaslbi.com/global/",
+          "start": "102012",
+          "end": "032014",
+          "role": "Lead Developer",
+          "projects": "Project New product site: Java and adobe AEM/CQ developer on the « New Product Site », the new nissan website. Migration from adobe CQ4 and flash technologies to AEM and Html5. www.nissan.co.uk (8 people)",
+          "description": "ljdlfhsldkfn lkks dfkln sdlkfn slkdkfn lnlskdfn lsnf",
+          "technical": "JAVA 6, eclipse, IntelliJ, Subversion, CQ5 (apache Sling), jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
+        },
+        {
+          "client": "",
+          "url": "",
+          "start": "",
+          "end": "",
+          "projects": "",
+          "description": "",
+          "technical": ""
+        }
+      ]
+    },
+    {
+      "itsc": "Open",
+      "url": "",
+      "duration": "",
+      "missions": [
+        {
+          "client": "",
+          "url": "",
+          "start": "",
+          "end": "",
+          "role": "",
+          "projects": "",
+          "description": "",
+          "technical": ""
+        },
+        {
+          "client": "",
+          "url": "",
+          "start": "",
+          "end": "",
+          "role": "",
+          "projects": "",
+          "description": "",
+          "technical": ""
         }
       ]
     }
