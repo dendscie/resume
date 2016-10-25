@@ -1,42 +1,42 @@
 {
-  "title": "Java Developer \n back and front end",
+  "title": "Senior Software Engineer",
   "subtitle": "",
   "skillset": [
     {
-      "title": "skills",
+      "title": "Main skills",
       "image": "/images/skills.png",
       "items": [
         {
-          "title": "technologies",
-          "content": "JavaEE, Spring, Vaadin, GWT, CQ5/AEM, Guice, OSGi"
+          "title": "Programming language",
+          "content": "Java"
         },
         {
-          "title": "Programming language",
-          "content": "Java, JSP, C, SQL, PHP, HTML, SVG, CSS, Python, PERL, CAML, Javascript, XML, JSON, Scala"
+          "title": "technologies",
+          "content": "JavaEE, Spring, Vaadin, GWT, CQ5/AEM, Hybris, RabbitMQ"
         },
         {
           "title": "Front end",
-          "content": "HTML, Javascript – jQuery, Freemarker, CSS, Less, Bootstrap, Grids, CssLint, JsLint, Selenium, AngularJS"
+          "content": "JQuery, Bootstrap, ReactJS, Html, CSS"
         },
         {
-          "title": "Back end",
-          "content": "Spring, Hibernate (JPA), Guice, Guava, Spring MVC, SAX, POI, Jersey (JAX-RS), Maven, Jenkins"
+          "title": "Back End",
+          "content": "Spring, Spring Boot, Hibernate (JPA), Guice, Guava"
         },
         {
           "title": "RDBSM",
-          "content": "MySQL, Oracle, PostgreSQL, Endeca (Index), Elastic-Search, GAE Datastore"
-        },
-        {
-          "title": "Application server",
-          "content": "Tomcat, Weblogic, Websphere, SunOne, Jboss, Jetty"
+          "content": "MySQL, Oracle, PostgreSQL, Endeca (Index), Elastic-Search, GAE Datastore, Solr"
         },
         {
           "title": "Tools/Software",
-          "content": "Putty, Typo3, SQLYOG, DB Visualizer, GIMP, Photoshop, Eclipse, SVN, Git, Gitk, Sublime Text 2, Intellij IDEA"
+          "content": "Intellij IDEA, Photoshop, Eclipse, SVN, Git, Mercurial, Sublime Text, Jenkins, Dynatrace, Maven"
         },
         {
           "title": "Architecture/Conception",
-          "content": "SOA, AOP, I18n, Design Pattern, Continuous Integration"
+          "content": "Design Pattern, Continuous Integration, Algorithm, REST, SOA/Microservices"
+        },
+        {
+          "title": "Studies",
+          "content": "Master in Bio-engineering and computer science in Evry University France"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "items": [
         {
           "title": "2015",
-          "content": "Coursera Algorithmis Design and Analysis"
+          "content": "Coursera Algorithms Design and Analysis"
         },
         {
           "title": "2013",
@@ -95,55 +95,77 @@
   ],
   "experiences": [
     {
-      "itsc": "Consultant for Ippon Tecnologies",
-      "url": "",
-      "duration": "",
+      "itsc": "ASICS",
+      "url": "http://www.asics.com/",
+      "duration": "1 Year",
       "missions": [
         {
-          "client": "Digitas LBI",
-          "url": "http://www.digitaslbi.com/global/",
-          "start": "102012",
-          "end": "032014",
-          "role": "Lead Developer",
-          "projects": "Project New product site: Java and adobe AEM/CQ developer on the « New Product Site », the new nissan website. Migration from adobe CQ4 and flash technologies to AEM and Html5. www.nissan.co.uk (8 people)",
-          "description": "ljdlfhsldkfn lkks dfkln sdlkfn slkdkfn lnlskdfn lsnf",
-          "technical": "JAVA 6, eclipse, IntelliJ, Subversion, CQ5 (apache Sling), jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
-        },
-        {
-          "client": "",
-          "url": "",
-          "start": "",
-          "end": "",
-          "projects": "",
-          "description": "",
-          "technical": ""
+          "client": "ASICS Global",
+          "url": "http://www.asics.com/",
+          "start": "2015",
+          "role": "Lead Developer / Tech lead",
+          "projects": "Project New product site: Java and adobe AEM/CQ developer on the « New Product Site », the new Nissan website. Migration from adobe CQ4 and flash technologies to AEM and Html5. www.nissan.co.uk (8 people)",
+          "description": "Lead developer on 'new product site'. Made the architecture ready for continuous delivery and pushed it to the whole JAVA pole. Plp implementation in ajax with elastic-search. Developed multiple API and libraries to facilitate development on AEM. Delivered 3 websites based on AEM as lead developer",
+          "technical": "JAVA 7, IntelliJ, Subversion, CQ5, jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
         }
       ]
     },
     {
-      "itsc": "Open",
-      "url": "",
-      "duration": "",
+      "itsc": "Sabbatical year in Japan Nara",
+      "url": "http://www.ippon.tech/",
+      "duration": "1 Year",
+      "missions": []
+    },
+    {
+      "itsc": "Consultant for Ippon Tecnologies",
+      "url": "http://www.ippon.tech/",
+      "duration": "4 Years",
       "missions": [
         {
-          "client": "",
-          "url": "",
-          "start": "",
-          "end": "",
-          "role": "",
-          "projects": "",
-          "description": "",
-          "technical": ""
+          "client": "Digitas LBI (PUBLICIS)",
+          "url": "http://www.digitaslbi.com/global/",
+          "start": "2012",
+          "end": "2014",
+          "role": "Lead Developer / Tech lead",
+          "projects": "Project New product site: Java and adobe AEM/CQ developer on the « New Product Site », the new nissan website. Migration from adobe CQ4 and flash technologies to AEM and Html5. www.nissan.co.uk (8 people)",
+          "description": "Lead developer on 'new product site'. Made the architecture ready for continuous delivery and pushed it to the whole JAVA pole. Plp implementation in ajax with elastic-search. Developed multiple API and libraries to facilitate development on AEM. Delivered 3 websites based on AEM as lead developer",
+          "technical": "JAVA 7, IntelliJ, Subversion, CQ5, jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
         },
         {
-          "client": "",
-          "url": "",
-          "start": "",
-          "end": "",
-          "role": "",
-          "projects": "",
-          "description": "",
-          "technical": ""
+          "client": "Darty",
+          "url": "http://www.darty.com/",
+          "start": "2011",
+          "end": "2012",
+          "role": "Developer",
+          "projects": "Ecommerce catalog developer",
+          "description": "Redesign of the ecommerce catalaog : Front end optimization, url rewriting, search improvements, seo, backoffice creation (Vaadin)",
+          "technical": "JAVA 7, eclipse, maven, git, guice, endeca, protobuffer, wro4j, jquery"
+        },
+        {
+          "client": "Ippon technologies for Societe Generale",
+          "url": "https://www.societegenerale.com/en/home",
+          "start": "2009",
+          "end": "2011",
+          "projects": "Website factory project",
+          "description": "Devlopper on a intranet solution for Societe Generale based on Liferay. Front end integration, portlet development, workflow engine customization, documentation, training sessions",
+          "technical": "Java 6, Spring, Oracle, maven, svn, liferay, jquery, ant"
+        }
+      ]
+    },
+    {
+      "itsc": "Open Groupe",
+      "url": "http://www.open-groupe.com/",
+      "duration": "2 Years",
+      "missions": [
+        {
+          "client": "PSA",
+          "url": "https://www.groupe-psa.com/en/",
+          "start": "2009",
+          "end": "2007",
+          "role": "Junior Developer",
+          "projects": "Sedre web, car electric schema consultation website aimed at mechanics",
+          "description": "Ensure browser compatibility and implement new functionality on Sedre Web, a web site for electric schema visualization (SVG). Development of Sedre management, the backoffice used to administrate schemas metadata",
+          "technical": "Java 5, Java EE, Struts, orm"
         }
       ]
     }
