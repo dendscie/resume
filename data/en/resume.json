@@ -41,7 +41,7 @@
       ]
     },
     {
-      "title": "formations",
+      "title": "Formations",
       "image": "/images/formation.png",
       "items": [
         {
@@ -95,7 +95,7 @@
   ],
   "experiences": [
     {
-      "itsc": "ASICS",
+      "company": "ASICS",
       "url": "http://www.asics.com/",
       "duration": "1 Year",
       "missions": [
@@ -111,13 +111,13 @@
       ]
     },
     {
-      "itsc": "Sabbatical year in Japan Nara",
+      "company": "Sabbatical year in Japan Nara",
       "url": "http://www.ippon.tech/",
       "duration": "1 Year",
       "missions": []
     },
     {
-      "itsc": "Consultant for Ippon Tecnologies",
+      "company": "Consultant for Ippon Tecnologies",
       "url": "http://www.ippon.tech/",
       "duration": "4 Years",
       "missions": [
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "itsc": "Open Groupe",
+      "company": "Open Groupe",
       "url": "http://www.open-groupe.com/",
       "duration": "2 Years",
       "missions": [

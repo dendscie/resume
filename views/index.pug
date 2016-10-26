@@ -35,62 +35,18 @@ block content
                 each vali in resume.experiences
                     .yellow-block.bm10
                         .resume-item.last
-                            h3 #{vali.itsc}
+                            h3
+                                a(href = vali.url) #{vali.company}
                     each valj in vali.missions
                         .yellow-block.bm10
                             .resume-item
-                                h3 #{valj.client}
+                                h4 #{valj.client}
                             .resume-item
-                                h3 Projects
+                                h4 Projects
                                 |#{valj.projects}
                             .resume-item
-                                h3 Description
+                                h4 Description
                                 |#{valj.description}
                             .resume-item.last
-                                h3 Technical Environment
+                                h4 Technical Environment
                                 |#{valj.technical}
-        //section#content
-        //    section#skills
-        //        .section-title
-        //            img(src="/images/skills.png")#skills-icon.content-icon
-        //            h2 SKILLS
-        //        .resume-enum
-        //            .resume-item
-        //                h3 Technologies
-        //                |JavaEE, Spring, Vaadin
-        //            .resume-item.last
-        //                h3 Divers
-        //                |blablabla
-        //    section#formation
-        //        .section-title
-        //            img(src="/images/formation.png")#formations-icon.content-icon
-        //            h2 FORMATION
-        //        .resume-enum
-        //            .resume-item
-        //                h3 Technologies
-        //                | JavaEE, Spring, Vaadin
-        //            .resume-item.last
-        //                h3 Divers
-        //                | blablabla
-        //    section#languages
-        //        .section-title
-        //            img(src="/images/languages.png")#languages-icon.content-icon
-        //            h2 LANGUAGES
-        //        .resume-enum
-        //            .resume-item
-        //                h3 Technologies
-        //                | JavaEE, Spring, Vaadin
-        //            .resume-item.last
-        //                h3 Divers
-        //                | blablabla
-        //    section#pro-experience
-        //        .section-title
-        //            img(src="/images/pro-experience.png")#pro-experience-icon.content-icon
-        //            h2 PROFESSIONAL EXPERIENCES
-        //        .resume-enum
-        //            .resume-item
-        //                h3 Technologies
-        //                | JavaEE, Spring, Vaadin
-        //            .resume-item.last
-        //                h3 Divers
-        //                | blablabla
