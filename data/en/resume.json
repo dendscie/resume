@@ -7,8 +7,8 @@
       "image": "/images/skills.png",
       "items": [
         {
-          "title": "Programming language",
-          "content": "Java"
+          "title": "Main programming languages",
+          "content": "Java, Javascript"
         },
         {
           "title": "technologies",
@@ -45,20 +45,12 @@
       "image": "/images/formation.png",
       "items": [
         {
-          "title": "2015",
-          "content": "Coursera Algorithms Design and Analysis"
-        },
-        {
-          "title": "2013",
-          "content": "Coursera Scala Course"
+          "title": "2016",
+          "content": "Velocity Conference Amsterdam"
         },
         {
           "title": "2012",
           "content": "Devoxx France"
-        },
-        {
-          "title": "2011",
-          "content": "Mule ESB"
         },
         {
           "title": "2011",
@@ -80,7 +72,7 @@
       "items": [
         {
           "title": "English",
-          "content": "fluent"
+          "content": "Fluent"
         },
         {
           "title": "French",
@@ -95,7 +87,7 @@
   ],
   "experiences": [
     {
-      "company": "ASICS",
+      "company": "ASICS (Since 2015)",
       "url": "http://www.asics.com/",
       "duration": "1 Year",
       "missions": [
@@ -111,13 +103,12 @@
       ]
     },
     {
-      "company": "Sabbatical year in Japan Nara",
-      "url": "http://www.ippon.tech/",
+      "company": "Sabbatical year in Japan Nara (2014)",
       "duration": "1 Year",
       "missions": []
     },
     {
-      "company": "Consultant for Ippon Tecnologies",
+      "company": "Consultant for Ippon Tecnologies (2011-2014)",
       "url": "http://www.ippon.tech/",
       "duration": "4 Years",
       "missions": [
@@ -153,7 +144,7 @@
       ]
     },
     {
-      "company": "Open Groupe",
+      "company": "Open Groupe (2007-2009)",
       "url": "http://www.open-groupe.com/",
       "duration": "2 Years",
       "missions": [
