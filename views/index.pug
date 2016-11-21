@@ -33,20 +33,22 @@ block content
                     img(src = "/images/pro-experience.png").content-icon
                     h2 Professional Experiences
                 each vali in resume.experiences
-                    .yellow-block.bm10
+                    .yellow-block.bm10.thick
                         .resume-item.last
                             h3
                                 a(href = vali.url) #{vali.company}
-                    each valj in vali.missions
-                        .yellow-block.bm10
-                            .resume-item
-                                h4 #{valj.client}
-                            .resume-item
-                                h4 Projects
-                                |#{valj.projects}
-                            .resume-item
-                                h4 Description
-                                |#{valj.description}
-                            .resume-item.last
-                                h4 Technical Environment
-                                |#{valj.technical}
+                            span.open-close +
+                        each valj in vali.missions
+                            .yellow-block
+                                if valj.client
+                                    .resume-item
+                                        h4 #{valj.client}
+                                .resume-item
+                                    h4 Projects
+                                    |#{valj.projects}
+                                .resume-item
+                                    h4 Description
+                                    |#{valj.description}
+                                .resume-item.last
+                                    h4 Technical Environment
+                                    |#{valj.technical}

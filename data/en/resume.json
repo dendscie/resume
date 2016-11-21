@@ -92,7 +92,6 @@
       "duration": "1 Year",
       "missions": [
         {
-          "client": "ASICS Global",
           "url": "http://www.asics.com/",
           "start": "2015",
           "role": "Lead Developer / Tech lead",
@@ -101,11 +100,6 @@
           "technical": "JAVA 7, IntelliJ, Subversion, CQ5, jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
         }
       ]
-    },
-    {
-      "company": "Sabbatical year in Japan Nara (2014)",
-      "duration": "1 Year",
-      "missions": []
     },
     {
       "company": "Consultant for Ippon Tecnologies (2011-2014)",

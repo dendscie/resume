@@ -15,6 +15,12 @@
 @magic-green : #ABD4C2;
 .yellow-block{
   border: 2px @magic-yellow solid;
+  .yellow-block {
+    margin: 3px;
+  }
+}
+.yellow-block.thick{
+  border: 3px @magic-yellow solid;
 }
 .yellow-back{
   color : @magic-green;
@@ -92,6 +98,7 @@ h1{
     color: @magic-yellow;
     margin: 0 5px 2px 0;
     font-size: 20px;
+    display: inline-block;
   }
   #formations h3, #languages h3 {
     display: inline-block;
@@ -120,6 +127,11 @@ h1{
     border: none;
     padding-bottom: 0;
   }
+}
+
+.open-close {
+  color : @magic-yellow;
+  cursor: pointer;
 }
 
 @media print {
