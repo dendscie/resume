@@ -43,12 +43,19 @@ block content
                                 if valj.client
                                     .resume-item
                                         h4 #{valj.client}
-                                .resume-item
-                                    h4 Projects
-                                    |#{valj.projects}
-                                .resume-item
-                                    h4 Description
-                                    |#{valj.description}
+                                if valj.projectsArray
+                                    .resume-item
+                                        h4 Projects
+                                        each valk in valj.projectsArray
+                                            h5 #{valk.title}
+                                            p.normal #{valk.description}
+                                else
+                                    .resume-item
+                                        h4 Projects
+                                        |#{valj.projects}
+                                    .resume-item
+                                        h4 Description
+                                        |#{valj.description}
                                 .resume-item.last
                                     h4 Technical Environment
                                     |#{valj.technical}

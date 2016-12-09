@@ -87,17 +87,37 @@
   ],
   "experiences": [
     {
-      "company": "ASICS (Since 2015)",
+      "company": "ASICS - Software Engineer on global e-commerce platform (Since 2015)",
       "url": "http://www.asics.com/",
       "duration": "1 Year",
       "missions": [
         {
           "url": "http://www.asics.com/",
           "start": "2015",
-          "role": "Lead Developer / Tech lead",
-          "projects": "Project New product site: Java and adobe AEM/CQ developer on the « New Product Site », the new Nissan website. Migration from adobe CQ4 and flash technologies to AEM and Html5. www.nissan.co.uk (8 people)",
-          "description": "Lead developer on 'new product site'. Made the architecture ready for continuous delivery and pushed it to the whole JAVA pole. Plp implementation in ajax with elastic-search. Developed multiple API and libraries to facilitate development on AEM. Delivered 3 websites based on AEM as lead developer",
-          "technical": "JAVA 7, IntelliJ, Subversion, CQ5, jsp, maven, Elastic-search, JQuery + UI, Ext-JS, Ajax, poi, HttpClient, Spring"
+          "role": "Software Engineer on global e-commerce platform (Hybris)",
+          "projectsArray": [
+            {
+              "title" : "RabbitMQ integration",
+              "description": "Architecture, and development of a RabbitMQ integration to process inbound and outbound data feeds, asynchronously. Based on a hybris extension at one end, RabbitMQ in between, and a micro-application in spring boot and spring integration on the other end."
+            },
+            {
+              "title" : "ReactJS integration",
+              "description": "Integration of ReactJS on the hybris front-end, with server side rendering of the react code using Java 8 nashorn. Also build process with JSX, ES6 compilation with groovy, nashorn and babel.js."
+            },
+            {
+              "title" : "Front Optimization",
+              "description": "Front end static resources compression, minification and uglification, adding cache header. Front-end resources cleanup and refactoring. Adding less css support. SEO recommandations implementation (Hreflang, sitemaps, canonical urls, etc…) Security fixes, Accessibility improvements, Tracking refactoring and improvement. Back-end refactoring and cleanup. Monitoring (dynatrace)"
+            },
+            {
+              "title" : "Hybris Dev",
+              "description": "Developments of components on the full stack. Payment provider integration. Order return for australia. Migration from 5.5 to 6 and more."
+            },
+            {
+              "title" : "Website releases",
+              "description": "Asics Tiger, and Onitsuka Tiger europe, Asics 2.0 japan, Asics 2.0 Australia, Asics 2.0 US, Asics 2.0 Europe, Asics 2.0 New Zealand, Asics 2.0 Korea, Asics Tiger Singapour"
+            }
+          ],
+          "technical": "JAVA 8, Spring, Spring boot, RabbitMQ, IntelliJ, Mercurial (Bitbucket), Hybris, JSP, jenkins, solr, Dynatrace, React JS, Nashorn, Jira, Slack, Dynatrace"
         }
       ]
     },
