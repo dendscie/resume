@@ -42,7 +42,8 @@ block content
                             .yellow-block
                                 if valj.client
                                     .resume-item
-                                        h4 #{valj.client}
+                                        h4
+                                            a(href = valj.url) #{valj.client}
                                 if valj.projectsArray
                                     .resume-item
                                         h4 Projects
