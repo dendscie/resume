@@ -79,5 +79,9 @@ crashlytics-build.properties
 
 
 
-src/public/stylesheets/bootstrap/bootstrap.css
-src/public/stylesheets/style.css
+public/stylesheets/bootstrap/bootstrap.css
+public/stylesheets/style.css
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
